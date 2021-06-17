@@ -1,0 +1,62 @@
+							******Operator precedence and associativity table********
+Operator	Description
+~~~~~~~~~~~~~~~~			Precedence			Associativity
+()	Parentheses	         	               1					Left to right
+[]	Array element reference
+->	Member access via pointer
+.	Member access via object name
+++	Postfix increment
+--	Postfix decrement
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!	Logical NOT operator	                2				Right to left
+~	Bitwise complement operator
++	Unary plus operator
+-	Unary minus operator
+++	Prefix Increment
+--	Prefix Decrement
+*	Indirection operator
+sizeof()	Size of operator
+(type)	Type cast
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+.*	Dereference operator	            3					Left to right
+->*	Dereference operator
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*	Multiply				4				Left to right
+/	Divide
+%	Modulus
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
++	Binary addition			5				Left to right
+-	Binary subtraction
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+<<	Bitwise left shift			6				Left to right
+>>	Bitwise right shift
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+<	Less than				7				Left to right
+<=	Less than or equal to
+>	Greater than
+>=	Greater than or equal to
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+==	Equal to				8				Left to right
+!=	Not equal to
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+&	Bitwise AND			9				Left to right
+^	Bitwise XOR			10				Left to right
+|	Bitwise OR			11				Left to right
+&&	Logical AND			12				Left to right
+||	Logical OR			13				Left to right
+?:	Conditional operator		14				Right to left
+=	Simple assignment			15				Right to left
+*=	Assign product
+~=	Assign bitwise complement
+/=	Assign quotient
+%=	Assign remainder
++=	Assign sum
+-=	Assign difference
+&=	Assign bitwise AND
+^=	Assign bitwise XOR
+|=	Assign bitwise OR
+<<=	Assign bitwise left shift
+>>=	Assign bitwise right shift
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+,	Comma operator			16				Left to right
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
